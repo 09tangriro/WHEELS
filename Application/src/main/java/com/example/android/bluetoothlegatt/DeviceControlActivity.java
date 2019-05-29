@@ -34,6 +34,7 @@ import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -58,6 +59,7 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
     private String mDeviceAddress;
     private BluetoothLeService mBluetoothLeService;
     private boolean mConnected = false;
+    private boolean mCruiseControl = false;
     private int[] data = new int [2];
 
 
@@ -196,8 +198,22 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
             case android.R.id.home:
                 onBackPressed();
                 return true;
+            case R.id.menu_cruise:
+                toggleCruiseControl();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void toggleCruiseControl(){
+        mBluetoothLeService.writeCustomCharacteristic("C");
+        if(mCruiseControl == false){
+            Toast.makeText(getApplicationContext(), "Cruise Control: ENABLED", Toast.LENGTH_LONG).show();
+            mCruiseControl = true;
+        }
+        else{
+            Toast.makeText(getApplicationContext(),"Cruise Control: DISABLED", Toast.LENGTH_LONG).show();
+            mCruiseControl = false;
+        }
     }
 
     private static IntentFilter makeGattUpdateIntentFilter() {
