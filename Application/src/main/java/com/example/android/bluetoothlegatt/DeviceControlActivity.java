@@ -62,6 +62,16 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
     private boolean mCruiseControl = false;
     private int[] data = new int [2];
 
+    private TimerTask timerTask = new TimerTask() {
+        @Override
+        public void run() {
+            String string_x = Integer.toString(data[0]);
+            String string_y = Integer.toString(data[1]);
+            String message = string_x + "," + string_y;
+            mBluetoothLeService.writeCustomCharacteristic(message);
+        }
+    };
+
 
     // Code to manage Service lifecycle.
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -95,9 +105,11 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
             final String action = intent.getAction();
             if (BluetoothLeService.ACTION_GATT_CONNECTED.equals(action)) {
                 mConnected = true;
+                Toast.makeText(getApplicationContext(), "Connected!", Toast.LENGTH_SHORT).show();
                 invalidateOptionsMenu();
             } else if (BluetoothLeService.ACTION_GATT_DISCONNECTED.equals(action)) {
                 mConnected = false;
+                Toast.makeText(getApplicationContext(), "Disconnected", Toast.LENGTH_SHORT).show();
                 invalidateOptionsMenu();
             }
         }
@@ -112,15 +124,6 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
         setContentView(jView);
 
         Timer timer = new Timer();
-        TimerTask timerTask = new TimerTask() {
-            @Override
-            public void run() {
-                String string_x = Integer.toString(data[0]);
-                String string_y = Integer.toString(data[1]);
-                String message = string_x + "," + string_y;
-                mBluetoothLeService.writeCustomCharacteristic(message);
-            }
-        };
         timer.scheduleAtFixedRate(timerTask, 1000,100);
 
         final Intent intent = getIntent();
@@ -196,6 +199,7 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
                 mBluetoothLeService.disconnect();
                 return true;
             case android.R.id.home:
+                timerTask.cancel();
                 onBackPressed();
                 return true;
             case R.id.menu_cruise:
