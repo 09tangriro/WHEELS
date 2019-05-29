@@ -52,7 +52,7 @@ ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidMa
 	android:label
 		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:37:18-50
 	android:icon
-		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:38:9-45
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:38:9-38
 	android:theme
 		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:39:9-56
 activity#com.example.android.bluetoothlegatt.DeviceScanActivity

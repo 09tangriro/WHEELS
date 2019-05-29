@@ -5,28 +5,49 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="PARENT_CLASS_CHANGED"
+    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.0.1"
-    timestamp="1559155883441"
+    timestamp="1559157538172"
     token="-8703002570609945138"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="791" />
+        duration="1912" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="22" />
+        duration="35" />
     <task
         name="verifier"
-        duration="9" />
+        duration="88" />
 
+    <artifact
+        location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
     <artifact
         location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
+    <artifact
+        location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\outputs\apk\debug\Application-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -72,7 +93,7 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1559154308562"
+        timestamp="1559157538172"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -92,24 +113,12 @@
         <artifact
             location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1559154929581"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\outputs\apk\debug\Application-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="PARENT_CLASS_CHANGED"
-        timestamp="1559155883441"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\outputs\apk\debug\Application-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
