@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\assets"/><source path="E:\Users\rohan\Documents\GitHub\WHEELS\Application\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\debug\assets"/></dataSet></merger>

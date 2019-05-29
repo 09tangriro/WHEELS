@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:20:1-51:12
+INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:20:1-51:12
+INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:20:1-51:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\35f37277f7b93a3418773922ce9ec82e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\0b9a6226fc55e994be99ff811e692f7d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\fc9a0a8862b6ce7757c658bdf5793993\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\c8cadf5be9e7bdcd5aee7ba4b09580c7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\d61b8b00610900feb55fa766470b1517\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\706a08499b320f93d825c957e76d1436\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\a2d1e5bb26e6760e3131e84cf31b3dbb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a2b7dc2738a8587e48b8da2acc60a7b4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\c4f57df88b5fb971c0e2134505dd58cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\b5e1a78c96f2c2feeb17f6bf4f31be76\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\024390b39f3c1084d20b0176d71649ad\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\1049b0652e93833c8b28fe8b04f36ac4\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:20:1-51:12
+INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:20:1-51:12
+	package
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:21:5-50
+	android:versionName
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:23:5-30
+		INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:20:11-69
+	android:versionCode
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:22:5-28
+		INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:24:22-78
+uses-feature#android.hardware.bluetooth_le
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:32:5-89
+	android:required
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:32:64-87
+	android:name
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:32:19-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:34:5-67
+	android:name
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:34:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:35:5-73
+	android:name
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:35:22-71
+application
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:37:5-49:19
+	android:label
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:37:18-50
+	android:icon
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:38:9-45
+	android:theme
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:39:9-56
+activity#com.example.android.bluetoothlegatt.DeviceScanActivity
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:40:9-46:20
+	android:label
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:41:13-45
+	android:name
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:40:19-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:42:13-45:29
+action#android.intent.action.MAIN
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:43:17-68
+	android:name
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:44:27-74
+activity#com.example.android.bluetoothlegatt.DeviceControlActivity
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:47:9-58
+	android:name
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:47:19-56
+service#com.example.android.bluetoothlegatt.BluetoothLeService
+ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:48:9-77
+	android:enabled
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:48:53-75
+	android:name
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml:48:18-52
+uses-sdk
+INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\35f37277f7b93a3418773922ce9ec82e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\35f37277f7b93a3418773922ce9ec82e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\0b9a6226fc55e994be99ff811e692f7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\0b9a6226fc55e994be99ff811e692f7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\fc9a0a8862b6ce7757c658bdf5793993\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\fc9a0a8862b6ce7757c658bdf5793993\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\c8cadf5be9e7bdcd5aee7ba4b09580c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\c8cadf5be9e7bdcd5aee7ba4b09580c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\d61b8b00610900feb55fa766470b1517\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\d61b8b00610900feb55fa766470b1517\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\706a08499b320f93d825c957e76d1436\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\706a08499b320f93d825c957e76d1436\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\a2d1e5bb26e6760e3131e84cf31b3dbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\a2d1e5bb26e6760e3131e84cf31b3dbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a2b7dc2738a8587e48b8da2acc60a7b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a2b7dc2738a8587e48b8da2acc60a7b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\c4f57df88b5fb971c0e2134505dd58cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\c4f57df88b5fb971c0e2134505dd58cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\b5e1a78c96f2c2feeb17f6bf4f31be76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\b5e1a78c96f2c2feeb17f6bf4f31be76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\024390b39f3c1084d20b0176d71649ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\024390b39f3c1084d20b0176d71649ad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\1049b0652e93833c8b28fe8b04f36ac4\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\rohan\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\1049b0652e93833c8b28fe8b04f36ac4\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+		ADDED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\Users\rohan\Documents\GitHub\WHEELS\Application\src\main\AndroidManifest.xml
