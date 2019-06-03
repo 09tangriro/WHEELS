@@ -137,7 +137,6 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
         mGattServicesList.setOnChildClickListener(servicesListClickListner);
         mConnectionState = (TextView) findViewById(R.id.connection_state);
         */
-        mDataField = (TextView) findViewById(R.id.data_value);
 
         getActionBar().setTitle("WHEELS");
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -190,6 +189,14 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
     }
 
     @Override
+    public void onBackPressed(){
+        timerTask.cancel();
+        mBluetoothLeService.disconnect();
+        final Intent restart = new Intent(this, DeviceScanActivity.class);
+        startActivity(restart);
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
             case R.id.menu_connect:
@@ -199,7 +206,6 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
                 mBluetoothLeService.disconnect();
                 return true;
             case android.R.id.home:
-                timerTask.cancel();
                 onBackPressed();
                 return true;
             case R.id.menu_cruise:
