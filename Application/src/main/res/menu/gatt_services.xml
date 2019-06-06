@@ -23,13 +23,25 @@
           android:title="@string/menu_connect"
           android:orderInCategory="100"
           android:showAsAction="ifRoom|withText"/>
-    <item android:id="@+id/menu_disconnect"
-          android:title="@string/menu_disconnect"
-          android:orderInCategory="101"
-          android:showAsAction="ifRoom|withText"/>
     <item
         android:id="@+id/menu_cruise"
-        android:orderInCategory="102"
+        android:orderInCategory="104"
         android:showAsAction="ifRoom|withText"
         android:title="Cruise Control" />
+    <item
+        android:id = "@+id/menu_diagnostics"
+        android:orderInCategory="105"
+        android:title="Diagnostics"
+        android:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/menu_disconnect"
+        android:orderInCategory="102"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_disconnect" />
+    <item
+        android:id="@+id/menu_brake"
+        android:orderInCategory="103"
+        android:showAsAction="ifRoom|withText"
+        android:title="Brake" />
+
 </menu>

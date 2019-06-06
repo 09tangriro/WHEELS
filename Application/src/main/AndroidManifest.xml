@@ -40,7 +40,6 @@
     <application
         android:icon="@drawable/logo"
         android:label="WHEELS">
-
         <activity
             android:name=".DeviceScanActivity"
             android:label="WHEELS">
@@ -57,10 +56,11 @@
             android:enabled="true" />
 
         <activity
-            android:label="WHEELS"
             android:name=".FingerprintService"
-            android:theme = "@style/Theme.AppCompat"/>
-
+            android:label="WHEELS"
+            android:theme="@style/Theme.AppCompat" />
+        <activity android:name=".DiagnosticsService"
+            android:theme="@style/Theme.AppCompat"></activity>
     </application>
 
 </manifest>

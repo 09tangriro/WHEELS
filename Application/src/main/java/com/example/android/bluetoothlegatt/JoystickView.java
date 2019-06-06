@@ -27,6 +27,7 @@ public class JoystickView extends SurfaceView implements SurfaceHolder.Callback,
         hatRadius = Math.min(getWidth(), getHeight()) / 5;
     }
 
+    //Draws joystick on screen.
     private void drawJoystick(float x, float y) {
         if (getHolder().getSurface().isValid()) {
             Canvas newCanvas = this.getHolder().lockCanvas();
@@ -86,6 +87,7 @@ public class JoystickView extends SurfaceView implements SurfaceHolder.Callback,
 
     }
 
+    //Called everytime the screen is touched. Uses simple trig to control joystick movement.
     public boolean onTouch(View v, MotionEvent e) {
         float scalar = 3.57f;
         if (v.equals(this)) {
@@ -109,6 +111,7 @@ public class JoystickView extends SurfaceView implements SurfaceHolder.Callback,
         return true;
     }
 
+    //callback function to be overwritten in actual implementation (currently in DeviceControlActivity)
     public interface JoystickListener {
         void onJoystickMoved(float x, float y);
     }

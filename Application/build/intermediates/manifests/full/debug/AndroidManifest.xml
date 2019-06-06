@@ -45,8 +45,7 @@
     <application
         android:debuggable="true"
         android:icon="@drawable/logo"
-        android:label="WHEELS"
-        android:testOnly="true" >
+        android:label="WHEELS" >
         <activity
             android:name="com.example.android.bluetoothlegatt.DeviceScanActivity"
             android:label="WHEELS" >
@@ -65,6 +64,9 @@
         <activity
             android:name="com.example.android.bluetoothlegatt.FingerprintService"
             android:label="WHEELS"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="com.example.android.bluetoothlegatt.DiagnosticsService"
             android:theme="@style/Theme.AppCompat" />
     </application>
 

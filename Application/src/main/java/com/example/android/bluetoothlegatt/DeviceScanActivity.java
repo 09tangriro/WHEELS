@@ -43,9 +43,6 @@ import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- * Activity for scanning and displaying available Bluetooth LE devices.
- */
 public class DeviceScanActivity extends ListActivity {
     private LeDeviceListAdapter mLeDeviceListAdapter;
     private BluetoothAdapter mBluetoothAdapter;
@@ -53,7 +50,7 @@ public class DeviceScanActivity extends ListActivity {
     private Handler mHandler;
 
     private static final int REQUEST_ENABLE_BT = 1;
-    // Stops scanning after 10 seconds.
+    // Stops scanning after 10 seconds. CHANGE AT WILL.
     private static final long SCAN_PERIOD = 10000;
 
     @Override
@@ -62,15 +59,11 @@ public class DeviceScanActivity extends ListActivity {
         getActionBar().setTitle("WHEELS");
         mHandler = new Handler();
 
-        // Use this check to determine whether BLE is supported on the device.  Then you can
-        // selectively disable BLE-related features.
         if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH_LE)) {
             Toast.makeText(this, R.string.ble_not_supported, Toast.LENGTH_SHORT).show();
             finish();
         }
-
-        // Initializes a Bluetooth adapter.  For API level 18 and above, get a reference to
-        // BluetoothAdapter through BluetoothManager.
+        //Initialize bluetooth adapter
         final BluetoothManager bluetoothManager =
                 (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
         mBluetoothAdapter = bluetoothManager.getAdapter();

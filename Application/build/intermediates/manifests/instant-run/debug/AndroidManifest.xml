@@ -66,6 +66,9 @@
             android:name="com.example.android.bluetoothlegatt.FingerprintService"
             android:label="WHEELS"
             android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="com.example.android.bluetoothlegatt.DiagnosticsService"
+            android:theme="@style/Theme.AppCompat" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

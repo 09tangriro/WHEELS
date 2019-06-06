@@ -102,6 +102,7 @@ public class FingerprintService extends AppCompatActivity {
         public void onAuthenticationSucceeded(FingerprintManager.AuthenticationResult result){
             this.update("Access Granted", true);
         }
+        //Handles success or failure cases.
         private void update(String s, boolean b){
             mParaLabel.setText(s);
 

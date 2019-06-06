@@ -42,12 +42,6 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- * For a given BLE device, this Activity provides the user interface to connect, display data,
- * and display GATT services and characteristics supported by the device.  The Activity
- * communicates with {@code BluetoothLeService}, which in turn interacts with the
- * Bluetooth LE API.
- */
 public class DeviceControlActivity extends Activity implements JoystickView.JoystickListener{
     private final static String TAG = DeviceControlActivity.class.getSimpleName();
 
@@ -97,8 +91,7 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
     // ACTION_GATT_CONNECTED: connected to a GATT server.
     // ACTION_GATT_DISCONNECTED: disconnected from a GATT server.
     // ACTION_GATT_SERVICES_DISCOVERED: discovered GATT services.
-    // ACTION_DATA_AVAILABLE: received data from the device.  This can be a result of read
-    //                        or notification operations.
+    // ACTION_DATA_AVAILABLE: received data from the device.
     private final BroadcastReceiver mGattUpdateReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -115,6 +108,7 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
         }
     };
 
+    //The "main" function called when the activity starts.
     @Override
     public void onCreate(Bundle savedInstanceState) {
         data[0] = 0;
@@ -130,19 +124,13 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
         mDeviceName = intent.getStringExtra(EXTRAS_DEVICE_NAME);
         mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
 
-        // Sets up UI references.
-        /*
-        ((TextView) findViewById(R.id.device_address)).setText(mDeviceAddress);
-        mGattServicesList = (ExpandableListView) findViewById(R.id.gatt_services_list);
-        mGattServicesList.setOnChildClickListener(servicesListClickListner);
-        mConnectionState = (TextView) findViewById(R.id.connection_state);
-        */
-
         getActionBar().setTitle("WHEELS");
         getActionBar().setDisplayHomeAsUpEnabled(true);
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
     }
+
+    //Code called everytime the joystick is moved.
     @Override
     public void onJoystickMoved(float x, float y) {
         //Log.d("Main Method", "x: " + x + " y: " + y);
@@ -188,6 +176,7 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
         return true;
     }
 
+    //Called when you press back on your phone.
     @Override
     public void onBackPressed(){
         timerTask.cancel();
@@ -210,10 +199,22 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
                 return true;
             case R.id.menu_cruise:
                 toggleCruiseControl();
+                return true;
+            case R.id.menu_diagnostics:
+                timerTask.cancel();
+                mBluetoothLeService.writeCustomCharacteristic("D");
+                final Intent diagIntent = new Intent(this, DiagnosticsService.class);
+                diagIntent.putExtra(EXTRAS_DEVICE_ADDRESS, mDeviceAddress);
+                startActivity(diagIntent);
+                return true;
+            case R.id.menu_brake:
+                mBluetoothLeService.writeCustomCharacteristic("B");
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }
 
+    //Code to toggle cruise control.
     public void toggleCruiseControl(){
         mBluetoothLeService.writeCustomCharacteristic("C");
         if(mCruiseControl == false){
@@ -226,6 +227,7 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
         }
     }
 
+    //IntentFilter to be sent to the Broadcast Receiver.
     private static IntentFilter makeGattUpdateIntentFilter() {
         final IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(BluetoothLeService.ACTION_GATT_CONNECTED);

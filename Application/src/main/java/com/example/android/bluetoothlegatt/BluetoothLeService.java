@@ -32,13 +32,10 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * Service for managing connection and data communication with a GATT server hosted on a
- * given Bluetooth LE device.
- */
 public class BluetoothLeService extends Service {
     private final static String TAG = BluetoothLeService.class.getSimpleName();
 
@@ -62,8 +59,7 @@ public class BluetoothLeService extends Service {
             "com.example.bluetooth.le.ACTION_DATA_AVAILABLE";
 
 
-    // Implements callback methods for GATT events that the app cares about.  For example,
-    // connection change and services discovered.
+    //Main callback function called whenever there is a state change or a service is discovered.
     private final BluetoothGattCallback mGattCallback = new BluetoothGattCallback() {
         @Override
         public void onConnectionStateChange(BluetoothGatt gatt, int status, int newState) {
@@ -113,23 +109,14 @@ public class BluetoothLeService extends Service {
 
     @Override
     public boolean onUnbind(Intent intent) {
-        // After using a given device, you should make sure that BluetoothGatt.close() is called
-        // such that resources are cleaned up properly.  In this particular example, close() is
-        // invoked when the UI is disconnected from the Service.
         close();
         return super.onUnbind(intent);
     }
 
     private final IBinder mBinder = new LocalBinder();
 
-    /**
-     * Initializes a reference to the local Bluetooth adapter.
-     *
-     * @return Return true if the initialization is successful.
-     */
+    //Tries to initialize the bluetooth on your phone.
     public boolean initialize() {
-        // For API level 18 and above, get a reference to BluetoothAdapter through
-        // BluetoothManager.
         if (mBluetoothManager == null) {
             mBluetoothManager = (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
             if (mBluetoothManager == null) {
@@ -147,16 +134,7 @@ public class BluetoothLeService extends Service {
         return true;
     }
 
-    /**
-     * Connects to the GATT server hosted on the Bluetooth LE device.
-     *
-     * @param address The device address of the destination device.
-     *
-     * @return Return true if the connection is initiated successfully. The connection result
-     *         is reported asynchronously through the
-     *         {@code BluetoothGattCallback#onConnectionStateChange(android.bluetooth.BluetoothGatt, int, int)}
-     *         callback.
-     */
+    //call this to connect to a device.
     public boolean connect(final String address) {
         if (mBluetoothAdapter == null || address == null) {
             Log.w(TAG, "BluetoothAdapter not initialized or unspecified address.");
@@ -189,12 +167,7 @@ public class BluetoothLeService extends Service {
         return true;
     }
 
-    /**
-     * Disconnects an existing connection or cancel a pending connection. The disconnection result
-     * is reported asynchronously through the
-     * {@code BluetoothGattCallback#onConnectionStateChange(android.bluetooth.BluetoothGatt, int, int)}
-     * callback.
-     */
+    // call this to disconnect from a device.
     public void disconnect() {
         if (mBluetoothAdapter == null || mBluetoothGatt == null) {
             Log.w(TAG, "BluetoothAdapter not initialized");
@@ -203,10 +176,7 @@ public class BluetoothLeService extends Service {
         mBluetoothGatt.disconnect();
     }
 
-    /**
-     * After using a given BLE device, the app must call this method to ensure resources are
-     * released properly.
-     */
+    //called at the end after finished.
     public void close() {
         if (mBluetoothGatt == null) {
             return;
@@ -215,7 +185,31 @@ public class BluetoothLeService extends Service {
         mBluetoothGatt = null;
     }
 
+    //Call this to read data.
+    public String readCustomCharacteristic() {
+        String data = null;
+        if (mBluetoothAdapter == null || mBluetoothGatt == null) {
+            Log.w(TAG, "BluetoothAdapter not initialized");
+            return data;
+        }
+        BluetoothGattService mCustomService = mBluetoothGatt.getService(UUID.fromString("6E400001-B5A3-F393-E0A9-E50E24DCCA9E"));
+        if(mCustomService == null){
+            Log.w(TAG, "Custom BLE Service not found");
+            return data;
+        }
+        BluetoothGattCharacteristic mReadCharacteristic = mCustomService.getCharacteristic(UUID.fromString("6E400003-B5A3-F393-E0A9-E50E24DCCA9E"));
+        if(mBluetoothGatt.readCharacteristic(mReadCharacteristic) == false){
+            Log.w(TAG, "Failed to read characteristic");
+        }
+        else{
+            byte[] input = mReadCharacteristic.getValue();
+            data = Arrays.toString(input);
+        }
+        return data;
 
+    }
+
+    //Call this to write data.
     public void writeCustomCharacteristic(String message) {
         if (mBluetoothAdapter == null || mBluetoothGatt == null) {
             Log.w(TAG, "BluetoothAdapter not initialized");
