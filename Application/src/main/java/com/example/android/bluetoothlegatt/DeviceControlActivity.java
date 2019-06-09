@@ -79,11 +79,13 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
             }
             // Automatically connects to the device upon successful start-up initialization.
             mBluetoothLeService.connect(mDeviceAddress);
+            mConnected = true;
         }
 
         @Override
         public void onServiceDisconnected(ComponentName componentName) {
             mBluetoothLeService = null;
+            mConnected = false;
         }
     };
 

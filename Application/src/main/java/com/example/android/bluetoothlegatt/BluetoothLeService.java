@@ -89,6 +89,7 @@ public class BluetoothLeService extends Service {
                 Log.w(TAG, "onServicesDiscovered received: " + status);
             }
         }
+
     };
 
     private void broadcastUpdate(final String action) {

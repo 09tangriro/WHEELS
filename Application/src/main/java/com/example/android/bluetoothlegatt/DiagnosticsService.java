@@ -22,14 +22,15 @@ import java.util.TimerTask;
 import static com.example.android.bluetoothlegatt.DeviceControlActivity.EXTRAS_DEVICE_ADDRESS;
 
 public class DiagnosticsService extends AppCompatActivity {
+    private final static String TAG = DeviceControlActivity.class.getSimpleName();
     private BluetoothLeService mBluetoothLeService;
     private String mDeviceAddress;
     private TextView mLabel;
 
     //-------------MANIPULATE THESE VARIABLES------------//
     private String data;        //This is the data read from the Arduino, do with it as you please!
-    final int PERIOD = 100;     // This is the time period at which the app will read data (i.e. read data once every PERIOD ms)
-    final int DELAY = 500;      // This is the delay before the first read (recommended not to change).
+    private final static int PERIOD = 100;     // This is the time period at which the app will read data (i.e. read data once every PERIOD ms)
+    private final static int DELAY = 500;      // This is the delay before the first read (recommended not to change).
     //--------------------------------------------------//
 
     private TimerTask timerTask = new TimerTask() {
@@ -37,6 +38,7 @@ public class DiagnosticsService extends AppCompatActivity {
         public void run() {
             data = mBluetoothLeService.readCustomCharacteristic();
             //--------------MANIPULATE DATA HERE---------------//
+            mLabel.setText(data); //<- Set text of the text view like this!
 
         }
     };
@@ -47,7 +49,7 @@ public class DiagnosticsService extends AppCompatActivity {
         public void onServiceConnected(ComponentName componentName, IBinder service) {
             mBluetoothLeService = ((BluetoothLeService.LocalBinder) service).getService();
             if (!mBluetoothLeService.initialize()) {
-                Log.e("BT", "Unable to initialize Bluetooth");
+                Log.e(TAG, "Unable to initialize Bluetooth");
                 finish();
             }
             // Automatically connects to the device upon successful start-up initialization.
@@ -68,7 +70,7 @@ public class DiagnosticsService extends AppCompatActivity {
         mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
 
         mLabel = (TextView) findViewById(R.id.textView4); //<- Instantiate text views like this!
-        mLabel.setText(data); //<- Set text of the text view like this!
+
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
         if(mBluetoothLeService != null){
@@ -83,6 +85,7 @@ public class DiagnosticsService extends AppCompatActivity {
     public void onBackPressed(){
         timerTask.cancel();
         final Intent goBack = new Intent(this, DeviceControlActivity.class);
+        goBack.putExtra(DeviceControlActivity.EXTRAS_DEVICE_ADDRESS, mDeviceAddress);
         startActivity(goBack);
     }
 }
