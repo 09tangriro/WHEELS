@@ -41,19 +41,17 @@
         android:name="android.hardware.bluetooth_le"
         android:required="true" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:debuggable="true"
         android:icon="@drawable/logo"
         android:label="WHEELS"
         android:testOnly="true" >
-        <activity
-            android:name="com.example.android.bluetoothlegatt.DeviceScanActivity"
-            android:label="WHEELS" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name="com.example.android.bluetoothlegatt.DeviceScanActivity" >
         </activity>
         <activity android:name="com.example.android.bluetoothlegatt.DeviceControlActivity" />
 
@@ -68,6 +66,16 @@
         <activity
             android:name="com.example.android.bluetoothlegatt.DiagnosticsService"
             android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="com.example.android.bluetoothlegatt.LoginActivity"
+            android:label="WHEELS"
+            android:theme="@style/Theme.AppCompat" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

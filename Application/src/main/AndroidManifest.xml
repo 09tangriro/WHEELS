@@ -20,8 +20,8 @@
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
-    <uses-permission android:name="android.permission.BLUETOOTH"/>
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
 
@@ -36,17 +36,16 @@
         android:name="android.hardware.bluetooth_le"
         android:required="true" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:icon="@drawable/logo"
         android:label="WHEELS">
         <activity
-            android:name=".DeviceScanActivity"
-            android:label="WHEELS">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:name=".DeviceScanActivity">
         </activity>
         <activity android:name=".DeviceControlActivity" />
 
@@ -58,8 +57,19 @@
             android:name=".FingerprintService"
             android:label="WHEELS"
             android:theme="@style/Theme.AppCompat" />
-        <activity android:name=".DiagnosticsService"
-            android:theme="@style/Theme.AppCompat"></activity>
+        <activity
+            android:name=".DiagnosticsService"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="WHEELS"
+            android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>
