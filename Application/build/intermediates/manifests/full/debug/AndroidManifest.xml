@@ -49,7 +49,8 @@
     <application
         android:debuggable="true"
         android:icon="@drawable/logo"
-        android:label="WHEELS" >
+        android:label="WHEELS"
+        android:testOnly="true" >
         <activity android:name="com.example.android.bluetoothlegatt.DeviceScanActivity" >
         </activity>
         <activity android:name="com.example.android.bluetoothlegatt.DeviceControlActivity" />

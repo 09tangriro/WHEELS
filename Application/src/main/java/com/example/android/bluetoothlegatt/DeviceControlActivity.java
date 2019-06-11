@@ -54,6 +54,8 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
     private BluetoothLeService mBluetoothLeService;
     private boolean mConnected = false;
     private boolean mCruiseControl = false;
+    private boolean mBrake = false;
+    private boolean mJerk = true;
     private int[] data = new int [2];
 
     private TimerTask timerTask = new TimerTask() {
@@ -200,7 +202,7 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
                 onBackPressed();
                 return true;
             case R.id.menu_cruise:
-                toggleCruiseControl();
+                toggleControl(1);
                 return true;
             case R.id.menu_diagnostics:
                 timerTask.cancel();
@@ -210,22 +212,51 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
                 startActivity(diagIntent);
                 return true;
             case R.id.menu_brake:
-                mBluetoothLeService.writeCustomCharacteristic("B");
+                toggleControl(2);
+                return true;
+            case R.id.menu_jerk:
+                toggleControl(3);
                 return true;
         }
         return super.onOptionsItemSelected(item);
     }
 
     //Code to toggle cruise control.
-    public void toggleCruiseControl(){
-        mBluetoothLeService.writeCustomCharacteristic("C");
-        if(mCruiseControl == false){
-            Toast.makeText(getApplicationContext(), "Cruise Control: ENABLED", Toast.LENGTH_LONG).show();
-            mCruiseControl = true;
-        }
-        else{
-            Toast.makeText(getApplicationContext(),"Cruise Control: DISABLED", Toast.LENGTH_LONG).show();
-            mCruiseControl = false;
+    private void toggleControl(int id){
+        switch(id){
+            case 1:
+                mBluetoothLeService.writeCustomCharacteristic("C");
+                if(mCruiseControl == false){
+                    Toast.makeText(getApplicationContext(), "Cruise Control: ENABLED", Toast.LENGTH_LONG).show();
+                    mCruiseControl = true;
+                }
+                else{
+                    Toast.makeText(getApplicationContext(),"Cruise Control: DISABLED", Toast.LENGTH_LONG).show();
+                    mCruiseControl = false;
+                }
+                break;
+            case 2:
+                mBluetoothLeService.writeCustomCharacteristic("B");
+                if(mBrake == false){
+                    Toast.makeText(getApplicationContext(), "Auto Brake: ENABLED", Toast.LENGTH_LONG).show();
+                    mBrake = true;
+                }
+                else{
+                    Toast.makeText(getApplicationContext(),"Auto Brake: DISABLED", Toast.LENGTH_LONG).show();
+                    mBrake = false;
+                }
+                break;
+            case 3:
+                mBluetoothLeService.writeCustomCharacteristic("J");
+                if(mJerk == false){
+                    Toast.makeText(getApplicationContext(), "Jerk Limiter: ENABLED", Toast.LENGTH_LONG).show();
+                    mJerk = true;
+                }
+                else{
+                    Toast.makeText(getApplicationContext(),"Jerk Limiter: DISABLED", Toast.LENGTH_LONG).show();
+                    mJerk = false;
+                }
+                break;
         }
     }
 

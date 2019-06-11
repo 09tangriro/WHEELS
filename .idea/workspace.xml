@@ -1,17 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f03d9796-861c-4a17-99b0-ba10964fbe2f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/compat/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/constraint/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/constraint/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/coreui/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/coreutils/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/fragment/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/mediacompat/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v13/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v13/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v4/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v4/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/com/example/android/bluetoothlegatt/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/com/example/android/bluetoothlegatt/R.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/single/debug.json" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/build-info/debug/build-info.xml" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/constraint/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v13/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v13/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$2.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$3.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceScanActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceScanActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DiagnosticsService.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DiagnosticsService.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/FingerprintService.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/FingerprintService.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/LoginActivity$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/LoginActivity$3.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/LoginActivity$4.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/LoginActivity$4.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/LoginActivity$ProfileQuery.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/LoginActivity$ProfileQuery.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/LoginActivity$UserLoginTask.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/LoginActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/LoginActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$integer.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$layout.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$menu.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$menu.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$mipmap.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$style.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$styleable.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/constraint/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/v13/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/v13/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$2.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$3.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DeviceControlActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DeviceControlActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DeviceScanActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DeviceScanActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DiagnosticsService.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/DiagnosticsService.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/FingerprintService.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/FingerprintService.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/LoginActivity$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/LoginActivity$3.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/LoginActivity$4.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/LoginActivity$4.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/LoginActivity$ProfileQuery.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/LoginActivity$ProfileQuery.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/LoginActivity$UserLoginTask.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/LoginActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/LoginActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$integer.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$layout.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$menu.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$menu.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$mipmap.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$style.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$styleable.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothlegatt/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/debug/zip-cache/m0kpZvi9PUqR6F4p3Y25WCQyeqw=" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/debug/zip-cache/m0kpZvi9PUqR6F4p3Y25WCQyeqw=" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/m0kpZvi9PUqR6F4p3Y25WCQyeqw=" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageInstantRunResourcesDebug/debug/zip-cache/m0kpZvi9PUqR6F4p3Y25WCQyeqw=" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/LoginActivity.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/LoginActivity.java" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/menu_gatt_services.xml.flat" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/menu_gatt_services.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_0.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_2.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_3.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_6.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_7.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_8.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_9.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/25/android/support/compat/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/25/android/support/compat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/25/android/support/fragment/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/25/android/support/fragment/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/25/android/support/mediacompat/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/25/android/support/mediacompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/27/android/support/coreutils/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/27/android/support/coreutils/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/27/android/support/v4/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/27/android/support/v4/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/27/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/27/android/support/v7/appcompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/28/android/support/graphics/drawable/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/28/android/support/graphics/drawable/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/31/android/support/v13/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/31/android/support/v13/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/32/android/support/coreui/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/32/android/support/coreui/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/33/android/support/graphics/drawable/animated/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/33/android/support/graphics/drawable/animated/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/android/support/constraint/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/android/support/constraint/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/BluetoothLeService$LocalBinder.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/BluetoothLeService$LocalBinder.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/BluetoothLeService.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/BluetoothLeService.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceControlActivity$1.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceControlActivity$1.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceControlActivity$2.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceControlActivity$2.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceControlActivity$3.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceControlActivity$3.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceControlActivity.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceControlActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceScanActivity$LeDeviceListAdapter.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceScanActivity$LeDeviceListAdapter.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceScanActivity.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DeviceScanActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DiagnosticsService.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/DiagnosticsService.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/FingerprintService.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/FingerprintService.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/JoystickView.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/JoystickView.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/LoginActivity$3.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/LoginActivity$3.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/LoginActivity$4.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/LoginActivity$4.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/LoginActivity$ProfileQuery.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/LoginActivity$ProfileQuery.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/LoginActivity$UserLoginTask.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/LoginActivity$UserLoginTask.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/LoginActivity.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/LoginActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$integer.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$layout.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$menu.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$menu.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$mipmap.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$mipmap.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$style.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$styleable.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34/com/example/android/bluetoothlegatt/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/2/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/3/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/6/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/6/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/7/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/8/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/8/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/9/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/constraint/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/v13/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/v13/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/BluetoothLeService$LocalBinder.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/BluetoothLeService$LocalBinder.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/BluetoothLeService.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/BluetoothLeService.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceControlActivity$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceControlActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceControlActivity$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceControlActivity$2.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceControlActivity$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceControlActivity$3.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceControlActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceControlActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceScanActivity$LeDeviceListAdapter.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceScanActivity$LeDeviceListAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceScanActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DeviceScanActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DiagnosticsService.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/DiagnosticsService.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/FingerprintService.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/FingerprintService.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/JoystickView.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/JoystickView.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/LoginActivity$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/LoginActivity$3.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/LoginActivity$4.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/LoginActivity$4.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/LoginActivity$ProfileQuery.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/LoginActivity$ProfileQuery.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/LoginActivity$UserLoginTask.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/LoginActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/LoginActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$integer.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$layout.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$menu.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$menu.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$mipmap.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$style.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$styleable.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothlegatt/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/__content__.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/mediacompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/0/buildId.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/0/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v4/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/6/android/support/v13/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/6/android/support/v13/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/6/buildId.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/6/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/7/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/7/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/8/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/8/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/8/buildId.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/8/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/android/support/constraint/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/buildId.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/BluetoothLeService$LocalBinder.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/BluetoothLeService$LocalBinder.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/BluetoothLeService.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/BluetoothLeService.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceControlActivity$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceControlActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceControlActivity$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceControlActivity$2.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceControlActivity$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceControlActivity$3.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceControlActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceControlActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceScanActivity$LeDeviceListAdapter.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceScanActivity$LeDeviceListAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceScanActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DeviceScanActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DiagnosticsService.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/DiagnosticsService.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/FingerprintService.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/FingerprintService.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/JoystickView.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/JoystickView.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/LoginActivity$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/LoginActivity$3.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/LoginActivity$4.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/LoginActivity$4.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/LoginActivity$ProfileQuery.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/LoginActivity$ProfileQuery.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/LoginActivity$UserLoginTask.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/LoginActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/LoginActivity.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$integer.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$layout.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$menu.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$menu.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$mipmap.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$style.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$styleable.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/9/com/example/android/bluetoothlegatt/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" afterPath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/menu/gatt_services.xml" afterPath="$PROJECT_DIR$/Application/src/main/res/menu/gatt_services.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,16 +265,63 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="166" column="34" lean-forward="true" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
-              <folding>
-                <element signature="e#5589#5629#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="166" column="34" lean-forward="false" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2550">
+              <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_diagnostics_service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_diagnostics_service.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/res/menu/main.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gatt_services.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/res/menu/gatt_services.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1779,12 +2058,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/res/menu/gatt_services.xml" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="158" />
-    <option name="y" value="-13" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="899" />
+    <option name="y" value="-10" />
     <option name="width" value="1294" />
     <option name="height" value="1047" />
   </component>
@@ -1803,10 +2084,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1825,16 +2104,36 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="bluetoothlegatt" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WHEELS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Application" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="WHEELS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Application" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="WHEELS" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Application" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1560254783358" />
+    <property name="device.picker.selection" value="b6c69a3f" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1872,7 +2171,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="Application" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Application" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -2001,38 +2300,39 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="-13" width="1294" height="1047" extended-state="1" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12241653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2045,11 +2345,58 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="166" column="34" lean-forward="true" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
-          <folding>
-            <element signature="e#5589#5629#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="166" column="34" lean-forward="false" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_diagnostics_service.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/menu/main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/menu/gatt_services.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2550">
+          <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
