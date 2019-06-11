@@ -47,6 +47,6 @@
         android:id="@+id/menu_jerk"
         android:orderInCategory="106"
         android:showAsAction="ifRoom|withText"
-        android:title="Jerk Control" />
+        android:title="Jerk Limiter" />
 
 </menu>

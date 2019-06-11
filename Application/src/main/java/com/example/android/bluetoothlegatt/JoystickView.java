@@ -13,6 +13,9 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 
+import static java.lang.Math.abs;
+import static java.lang.Math.min;
+
 public class JoystickView extends SurfaceView implements SurfaceHolder.Callback, View.OnTouchListener {
     private float centerX;
     private float centerY;
@@ -23,8 +26,8 @@ public class JoystickView extends SurfaceView implements SurfaceHolder.Callback,
     private void setupDimensions() {
         centerX = getWidth() / 2;
         centerY = getHeight() / 2;
-        baseRadius = Math.min(getWidth(), getHeight()) / 3;
-        hatRadius = Math.min(getWidth(), getHeight()) / 5;
+        baseRadius = min(getWidth(), getHeight()) / 3;
+        hatRadius = min(getWidth(), getHeight()) / 5;
     }
 
     //Draws joystick on screen.
@@ -89,19 +92,37 @@ public class JoystickView extends SurfaceView implements SurfaceHolder.Callback,
 
     //Called everytime the screen is touched. Uses simple trig to control joystick movement.
     public boolean onTouch(View v, MotionEvent e) {
-        float scalar = 3.57f;
+        float scalar = 3.58f;
+        float x;
+        float y;
         if (v.equals(this)) {
             if (e.getAction() != e.ACTION_UP) {
                 float displacement = (float) Math.sqrt(Math.pow(e.getX() - centerX, 2) + Math.pow(e.getY() - centerY, 2));
                 if (displacement < baseRadius) {
                     drawJoystick(e.getX(), e.getY());
-                    joystickCallback.onJoystickMoved((e.getX() - centerX) / scalar, (centerY - e.getY()) / scalar);
+                    x = min(100, abs((e.getX() - centerX) / scalar));
+                    if((e.getX() - centerX) / scalar < 0){
+                        x = -x;
+                    }
+                    y = min(100, abs((centerY - e.getY()) / scalar));
+                    if((centerY - e.getY()) / scalar < 0){
+                        y = -y;
+                    }
+                    joystickCallback.onJoystickMoved(x, y);
                 } else {
                     float ratio = baseRadius / displacement;
                     float constrainedX = centerX + (e.getX() - centerX) * ratio;
                     float constrainedY = centerY + (e.getY() - centerY) * ratio;
                     drawJoystick(constrainedX, constrainedY);
-                    joystickCallback.onJoystickMoved((constrainedX - centerX) / scalar, (centerY - constrainedY) / scalar);
+                    x = min(100, abs((constrainedX - centerX) / scalar));
+                    if((constrainedX - centerX) / scalar < 0){
+                        x = -x;
+                    }
+                    y = min(100, abs((centerY - constrainedY) / scalar));
+                    if((centerY - constrainedY) / scalar < 0){
+                        y = -y;
+                    }
+                    joystickCallback.onJoystickMoved(x, y);
                 }
             } else {
                 drawJoystick(centerX, centerY);
