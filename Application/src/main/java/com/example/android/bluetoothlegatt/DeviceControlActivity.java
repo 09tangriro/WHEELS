@@ -227,34 +227,34 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
             case 1:
                 if(mCruiseControl == false){
                     mBluetoothLeService.writeCustomCharacteristic("60,0C");
-                    Toast.makeText(getApplicationContext(), "Cruise Control: ENABLED", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Cruise Control: ENABLED", Toast.LENGTH_SHORT).show();
                     mCruiseControl = true;
                 }
                 else{
                     mBluetoothLeService.writeCustomCharacteristic("-100,0");
-                    Toast.makeText(getApplicationContext(),"Cruise Control: DISABLED", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Cruise Control: DISABLED", Toast.LENGTH_SHORT).show();
                     mCruiseControl = false;
                 }
                 break;
             case 2:
                 mBluetoothLeService.writeCustomCharacteristic("B");
                 if(mBrake == false){
-                    Toast.makeText(getApplicationContext(), "Auto Brake: ENABLED", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Auto Brake: ENABLED", Toast.LENGTH_SHORT).show();
                     mBrake = true;
                 }
                 else{
-                    Toast.makeText(getApplicationContext(),"Auto Brake: DISABLED", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Auto Brake: DISABLED", Toast.LENGTH_SHORT).show();
                     mBrake = false;
                 }
                 break;
             case 3:
                 mBluetoothLeService.writeCustomCharacteristic("J");
                 if(mJerk == false){
-                    Toast.makeText(getApplicationContext(), "Jerk Limiter: ENABLED", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Jerk Limiter: ENABLED", Toast.LENGTH_SHORT).show();
                     mJerk = true;
                 }
                 else{
-                    Toast.makeText(getApplicationContext(),"Jerk Limiter: DISABLED", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Jerk Limiter: DISABLED", Toast.LENGTH_SHORT).show();
                     mJerk = false;
                 }
                 break;
