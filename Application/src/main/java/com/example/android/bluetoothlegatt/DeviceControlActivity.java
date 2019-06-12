@@ -225,13 +225,12 @@ public class DeviceControlActivity extends Activity implements JoystickView.Joys
     private void toggleControl(int id){
         switch(id){
             case 1:
+                mBluetoothLeService.writeCustomCharacteristic("C");
                 if(mCruiseControl == false){
-                    mBluetoothLeService.writeCustomCharacteristic("60,0C");
                     Toast.makeText(getApplicationContext(), "Cruise Control: ENABLED", Toast.LENGTH_SHORT).show();
                     mCruiseControl = true;
                 }
                 else{
-                    mBluetoothLeService.writeCustomCharacteristic("-100,0");
                     Toast.makeText(getApplicationContext(),"Cruise Control: DISABLED", Toast.LENGTH_SHORT).show();
                     mCruiseControl = false;
                 }
