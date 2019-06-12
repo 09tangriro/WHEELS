@@ -70,7 +70,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
         if(getBooleanFromSP(this)){
             scanIntent(this);
         }
-        DUMMY_CREDENTIALS.put("rohan.tangri@gmail.com", "xxshadowassassin2");
+        DUMMY_CREDENTIALS.put("example@gmail.com", "password");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         // Set up the login form.
